@@ -1,11 +1,4 @@
 parameters:
-- name: agent_pool_name
-  displayName: 'Agent pool name'
-  type: string
-  default: ubuntu-latest
-  values:
-  - windows-latest
-  - ubuntu-latest
 - name: publish_artifact_name
   displayName: 'Publish artifact name'
   type: string
