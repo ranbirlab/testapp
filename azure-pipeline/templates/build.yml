@@ -14,8 +14,8 @@ parameters:
 jobs:
 - job: build
   displayName: build
-  pool: 
-    vmImage: ${{ parameters.agent_pool_name }}
+#   pool: 
+#     vmImage: ${{ parameters.agent_pool_name }}
   variables:
     group: terraform-private-modules
   steps:
